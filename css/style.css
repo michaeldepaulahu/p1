@@ -1,0 +1,79 @@
+/*!
+ * Style.css
+ * author: michael depaula
+ * custom css style css
+*/
+
+.title{
+	font: 300 38px "Century Gothic", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #414141;
+	height:124px;
+	padding-top:40px;
+}
+.title p{
+	padding-top:3px;
+	font-size:12px;
+}
+.main{
+
+	position:relative;
+	overflow:hidden;
+	margin: 0 0 100px;
+	padding:455px 0 0px;
+	background:url(../img/main.jpg) top no-repeat;
+}
+.csplit{
+	color:	#69d3ed;
+}
+.thumb0{
+	margin: 0;
+}
+.thumb1{
+	margin: 0 80px 0px 80px;	
+}
+.thumb2{
+	margin: 0 80px 40px 80px;	
+}
+.thumb1{
+	height:124px;
+}
+.thumb-set1 {
+	margin: 0;
+	padding: 0 0 20px 0;
+	border:1px solid #E4E4E4;
+	text-align: center;
+}
+.thumb-set1 .thumbnail {
+	position: relative;
+	margin: 0;
+	padding: 0;	
+	border: none;
+}
+.thumb-set1 .thumbnail .caption {
+	padding: 0 25px;
+}
+.thumb-set1 .thumbnail .caption .title {
+	font: 300 22px/1.3em "Century Gothic", Arial, sans-serif;
+	color:#373737;
+}
+.thumb-set1 .thumbnail .caption p {
+	font: 100 18px/1em Arial, Verdana, sans-serif;
+	color:#272727;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+.thumb-set1 figure {
+	margin: 0 0 20px 0;
+}
+.thumb-set1 figure img {
+	width: 100%;
+}
+.thumb-set1 span {
+	margin:30px 0 10px 0;
+}
+
+#ex1{
+	display:none;	
+}
