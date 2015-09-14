@@ -12,18 +12,8 @@
 <link rel="stylesheet" href="css/style.css">
 <!--JS-->
 <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/custom.js"></script>
 
-<script>
-$(document).ready(function(){
-	$("#q1").hover(function(){
-		$("#ex1").fadeIn(2000);
-		$("#exp1").animate({'margin-top': '250px'});
-		}, function(){
-		 $("#ex1").fadeOut(2000);
-		$("#exp1").animate({'margin-top': '30px'});
-	});
-});
-</script>
 </head>
 
 <body>
@@ -48,57 +38,70 @@ $(document).ready(function(){
         </div>        
         <div class="row">
             <div class="col-md-12 main"></div>
-        </div>        
+        </div> 
         <div class="row thumb2">
-            <div id="q1" class="col-md-3">
+            <div class="col-md-12">
+            	<h1>About Me</h1>
+            	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div> 
+        </div>              
+        <div class="row thumb2">
+            <div class="col-md-3 q1">
                 <div class="thumb-set1 maxheight">
                     <div class="thumbnail">
+                    	<p class="title-head">Why are you taking this course?</p>
                         <figure><img src="img/1.jpg" alt=""></figure>
                         <div class="caption">
                             <p class="title">Why are you taking this course?</p>
-                            <p id="ex1">text goes in here....very soon to will define.</p>
-                            <span id="exp1" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            <p>text goes in here....very soon to will define.text goes in here....very soon to will define.text goes in here....very soon to will define.</p>
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         </div>  
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 q2">
                 <div class="thumb-set1 maxheight">
                     <div class="thumbnail">
+                        <p class="title-head">What previous experience do you have with programming?</p>
                         <figure><img src="img/2.jpg" alt=""></figure>
                         <div class="caption">
                             <p class="title">What previous experience do you have with programming?</p>
-                            <p class="hidden">text goes in here....very soon to will define.</p>
+                            <p>text goes in here....very soon to will define.</p>
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         </div>  
                     </div>
                 </div> 
             </div> 
-            <div class="col-md-3">
+            <div class="col-md-3 q3">
                 <div class="thumb-set1 maxheight">
                     <div class="thumbnail">
+                    	<p class="title-head">Are you working on a Mac, PC, or some other platform?</p>
                         <figure><img src="img/3.jpg" alt=""></figure>
                         <div class="caption">
                             <p class="title">Are you working on a Mac, PC, or some other platform?</p>
-                            <p class="hidden">text goes in here....very soon to will define.</p>
+                            <p>text goes in here....very soon to will define.</p>
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         </div>  
                     </div>
                 </div>
             </div>  
-            <div class="col-md-3">
+            <div class="col-md-3 q4">
                 <div class="thumb-set1 maxheight">
                     <div class="thumbnail">
+                    	<p class="title-head">Anything else we should know?</p>
                         <figure><img src="img/4.jpg" alt=""></figure>
                         <div class="caption">
                             <p class="title">Anything else we should know?</p>
-                            <p class="hidden">text goes in here....very soon to will define.</p>
+                            <p>text goes in here....very soon to will define.</p>
                             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         </div>  
                     </div>
                 </div>
             </div>                                    
-        </div>        
+        </div>  
+        <div class="row">
+            <div class="col-md-12"><p style="height:300px;"></p><p></p></div>
+        </div>              
     </div>
     <script src="js/bootstrap.min.js"></script>
 </body>
