@@ -8,7 +8,7 @@
  	function toggle(sel){
 		// selectors
 		var p = sel + " p:eq(1)";
-		var p1 = sel + " p:eq(2)";
+		var p1 = sel + " ul";
 		var span = sel + " span:eq(0)";
 		var fig = sel + " figure";
 		var thb = sel + " .thumbnail";		
@@ -19,7 +19,7 @@
 			$(p1).fadeIn(500);
 			$(fig).css('opacity', 0.9); 
 			$(thb).css('background-color', '#e2edf0');
-			$(span).animate({'margin-top': '150px'}).clearQueue().finish();	;
+			$(span).animate({'margin-top': '150px'}).clearQueue().finish();
 		}, function(){ 
 			$(p).fadeOut(500); 
 			$(p1).fadeOut(500); 

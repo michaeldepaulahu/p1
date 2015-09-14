@@ -4,6 +4,9 @@
  * custom css style css
 */
 
+h1{
+	margin-bottom: 15px;	
+}
 .title{
 	font: 300 38px "Century Gothic", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -19,7 +22,7 @@
 
 	position:relative;
 	overflow:hidden;
-	margin: 0 0 100px;
+	margin: 0 0 30px;
 	padding:455px 0 0px;
 	background:url(../img/main.jpg) top no-repeat;
 }
@@ -91,3 +94,75 @@
 	display:none;	
 }
 
+.caption ul{
+	display:none; 	
+}
+.caption ul li{
+	padding: 0 0 8px 0;
+}
+
+.thumb-pad1 {
+	margin: 0 0 41px 0;
+}
+.thumb-pad1:hover .thumbnail strong {
+	background:#f0d495;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.thumb-pad1 .thumbnail {
+	position: relative;
+	margin: 0;
+	border-radius: 0;
+	border: none;
+	padding: 0;
+	background: none;
+}
+.thumb-pad1 .thumbnail strong {
+	background: #69d3ed;
+	width: 52px;
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 100%;
+	margin-right: 11px;
+	float: left;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	transition: all 0.25s;
+	color:#1B2B46;
+}
+.thumb-pad1 .thumbnail .caption1 {
+	padding: 12px 0 0 0;
+	overflow: hidden;
+}
+.thumb-pad1 .thumbnail .caption1 .description {
+	font: 100 18px/1em Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+	color: #3e3e3e;
+	margin-bottom: 7px;
+}
+
+footer{
+	background-color: #1e2d37;
+	color:#FFFFFF;
+	margin-bottom:30px;
+	padding: 5px 0 8px 0; 
+}
+
+footer .f_title{
+	font: 300 18px "Century Gothic", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	height:44px;
+	padding-top:15px;
+}
+
+
+footer a {
+color: #507493;
+}
+
+footer a:hover,
+footer a:focus {
+  color:#B8B8B8;
+}
