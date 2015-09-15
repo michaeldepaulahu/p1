@@ -19,13 +19,13 @@
 			$(p1).fadeIn(500);
 			$(fig).css('opacity', 0.9); 
 			$(thb).css('background-color', '#e2edf0');
-			$(span).animate({'margin-top': '150px'}).clearQueue().finish();
+			$(span).animate({'margin-top': '10px'}).clearQueue().finish();
 		}, function(){ 
 			$(p).fadeOut(500); 
 			$(p1).fadeOut(500); 
 			$(fig).css('opacity', 1);
 			$(thb).css('background-color', '#ffffff');
-			$(span).animate({'margin-top': '30px'}).clearQueue().finish();
+			$(span).animate({'margin-top': '10px'}).clearQueue().finish();
 		});
 	}
 	

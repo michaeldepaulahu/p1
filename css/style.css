@@ -3,6 +3,26 @@
  * author: michael depaula
  * custom css style css
 */
+@media (max-width: 767px) {
+	.thumb-set1 .thumbnail .caption p {
+		margin-bottom:35px;
+	}
+}
+@media (min-width: 768px) {
+	.thumb-set1 .thumbnail .caption p {
+		margin-bottom:1px;
+	}
+}
+@media (min-width: 992px) {
+	.thumb-set1 .thumbnail .caption p {
+		margin-bottom:60px;
+	}
+}
+@media (min-width: 1200px) {
+	.thumb-set1 .thumbnail .caption p {
+		margin-bottom:25px;
+	}
+}
 
 h1{
 	margin-bottom: 15px;	
@@ -55,25 +75,21 @@ h1{
 .thumb-set1 .thumbnail .caption {
 	padding: 0 25px;
 }
-
-
 .thumb-set1 .thumbnail .title-head {
-	font: 300 30px/1.3em "Century Gothic", Arial, sans-serif;	
+	font: 300 26px/1.3em "Century Gothic", Arial, sans-serif;	
 	position:absolute;
 	color:#FFFFFF;
-	padding-top:100px;	
+	padding-top:90px;	
 }
-
 .thumb-set1 .thumbnail .caption .title {
-	font: 300 22px/1.3em "Century Gothic", Arial, sans-serif;
+	font: 300 18px/1.3em "Century Gothic", Arial, sans-serif;
 	color:#373737;
 }
 .thumb-set1 .thumbnail .caption p {
 	font: 100 18px/1em Arial, Verdana, sans-serif;
 	color:#272727;
 	font-size: 14px;
-	line-height: 21px;
-	margin-bottom: 40px;	
+	line-height: 21px;	
 }
 .thumb-set1 figure {
 	margin: 0 0 20px 0;
@@ -84,23 +100,19 @@ h1{
 .thumb-set1 span {
 	margin:30px 0 10px 0;
 }
-
 .caption p:nth-child(1){
 	margin:0 0 30x 0; 
 	display:none;		
 }
-
 .caption p:nth-child(2){
 	display:none;	
 }
-
 .caption ul{
 	display:none; 	
 }
 .caption ul li{
 	padding: 0 0 8px 0;
 }
-
 .thumb-pad1 {
 	margin: 0 0 41px 0;
 }
@@ -142,27 +154,28 @@ h1{
 	color: #3e3e3e;
 	margin-bottom: 7px;
 }
-
 footer{
 	background-color: #1e2d37;
 	color:#FFFFFF;
 	margin-bottom:30px;
 	padding: 5px 0 8px 0; 
 }
-
 footer .f_title{
 	font: 300 18px "Century Gothic", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	height:44px;
 	padding-top:15px;
 }
-
-
 footer a {
 color: #507493;
 }
-
 footer a:hover,
 footer a:focus {
   color:#B8B8B8;
+}
+.navbar{
+	margin-top: 10px;	
+}
+.navbar-header{
+	padding: 0 10px 0 10px;	
 }

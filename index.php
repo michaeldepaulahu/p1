@@ -20,28 +20,53 @@
         <!--header-->
         <header>
             <div class="row thumb1">
-                <div class="col-md-7">
+                <div class="col-xs-12 col-sm-12 col-md-6">
                     <div class="title">
                         MICHAEL <span class="csplit">DEPAULA</span>
                         <p>Dynamic Web Apps Portfolio</p>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <nav>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <nav class="hidden-xs">
                         <ul class="nav nav-pills">
                             <li class="active"><a href="http://p1.dehashed.com/">Home - PE</a></li>
                             <li><a href="http://p2.dehashed.com/"><strong>P</strong><span class="csplit"> 2</span></a></li>
                             <li><a href="http://p3.dehashed.com/"><strong>P</strong><span class="csplit"> 3</span></a></li>
                             <li><a href="http://p4.dehashed.com/"><strong>P</strong><span class="csplit"> 4</span></a></li>
                         </ul>
-                    </nav>            
+                    </nav>                                
                 </div>
             </div>
+            <!--Mobile Navigation-->
+            <nav class="navbar navbar-default visible-xs">
+                <div class="container-fluid">
+                    <!-- Control -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Dynamic Web Apps Portfolio</a>
+                    </div>
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse" id="mobile1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="http://p1.dehashed.com/"><strong>P</strong><span class="csplit"> 1</span> - Home</a></li>
+                            <li><a href="http://p2.dehashed.com/"><strong>P</strong><span class="csplit"> 2</span> - Password Generator</a></li>
+                            <li><a href="http://p3.dehashed.com/"><strong>P</strong><span class="csplit"> 3</span> - Developer's Best Friend</a></li>
+                            <li><a href="http://p4.dehashed.com/"><strong>P</strong><span class="csplit"> 4</span> - Web App</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--End Mobile Navigation-->  
         </header>    
         <!--end header-->
          
         <div class="row">
-            <div class="col-md-12 main"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 main"></div>
         </div> 
         <div class="row thumb2">
             <div class="col-md-12">
@@ -63,7 +88,7 @@ Michael Depaula was born in Rio de Janeiro, Brazil and moved to the United State
                             <p class="description">Password Generator</p>
                             <p>Project 2 (P2) Password Generator coming soon.</p>
                             <ul>
-                            	<li><a href="http://p2.dehashed.com/">GitHub</a></li>
+                            	<li><a href="https://github.com/michaeldepaulahu/p2">GitHub</a></li>
                             	<li><a href="http://p2.dehashed.com/">Web Link</a></li>
                             </ul>
                         </div>  
@@ -78,7 +103,7 @@ Michael Depaula was born in Rio de Janeiro, Brazil and moved to the United State
                             <p class="description">Developer's Best Friend</p>
                             <p>Project 3 (P3) Developer's Best Friend coming soon.</p>
                             <ul>
-                            	<li><a href="http://p3.dehashed.com/">GitHub</a></li>
+                            	<li><a href="https://github.com/michaeldepaulahu/p3">GitHub</a></li>
                             	<li><a href="http://p3.dehashed.com/">Web Link</a></li>
                             </ul>
                         </div>  
@@ -93,7 +118,7 @@ Michael Depaula was born in Rio de Janeiro, Brazil and moved to the United State
                             <p class="description">Web App </p>
                             <p>Project 4 (P4)Web App coming soon.</p>
                             <ul>
-                            	<li><a href="http://p4.dehashed.com/">GitHub</a></li>
+                            	<li><a href="https://github.com/michaeldepaulahu/p4">GitHub</a></li>
                             	<li><a href="http://p4.dehashed.com/">Web Link</a></li>
                             </ul>
                         </div>  
@@ -179,24 +204,24 @@ Michael Depaula was born in Rio de Janeiro, Brazil and moved to the United State
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <p class="f_title">Michael Depaula</p>
+                    <p class="f_title">Michael <span class="csplit">DEPAULA</span></p>
                 </div>
                 <div class="col-md-4">
                     <p class="f_title">GitHub</p>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Password Generator</a></li>
-                        <li><a href="#">Developer's Best Friend</a></li>
-                        <li><a href="#">Web App</a></li>
+                        <li><a href="https://github.com/michaeldepaulahu/p1">Home</a></li>
+                        <li><a href="https://github.com/michaeldepaulahu/p2">Password Generator</a></li>
+                        <li><a href="https://github.com/michaeldepaulahu/p3">Developer's Best Friend</a></li>
+                        <li><a href="https://github.com/michaeldepaulahu/p4">Web App</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <p class="f_title">Web Links</p>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Password Generator</a></li>
-                        <li><a href="#">Developer's Best Friend</a></li>
-                        <li><a href="#">Web App</a></li>
+                        <li><a href="http://p1.dehashed.com/">Home</a></li>
+                        <li><a href="http://p2.dehashed.com/">Password Generator</a></li>
+                        <li><a href="http://p3.dehashed.com/">Developer's Best Friend</a></li>
+                        <li><a href="http://p4.dehashed.com/">Web App</a></li>
                     </ul>
                 </div>
             </div>
