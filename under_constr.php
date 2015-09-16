@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PAGE NOT FOUND</title>
+<title>Under Construction</title>
 <meta charset="utf-8">    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="Under Construction">
 <meta name="keywords" content="">
 <meta name="author" content="michaeldepaula">
 <!--CSS-->
 <link rel="stylesheet" href="css/bootstrap.css" >
 <link rel="stylesheet" href="css/style.css">
+<!--JS-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/custom.js"></script>
 </head>
-
 <body>
     <div class="container-fluid">    
         <!--header-->
@@ -33,7 +35,32 @@
                         </ul>
                     </nav>                                
                 </div>                
-            </div> 
+            </div>
+            <!--Mobile Navigation-->
+            <nav class="navbar navbar-default visible-xs">
+                <div class="container-fluid">
+                    <!-- Control -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Dynamic Web Apps Portfolio</a>
+                    </div>
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse" id="mobile1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="http://p1.dehashed.com/"><strong>P</strong><span class="csplit"> 1</span> - Home</a></li>
+                            <li><a href="http://p2.dehashed.com/"><strong>P</strong><span class="csplit"> 2</span> - Password Generator</a></li>
+                            <li><a href="http://p3.dehashed.com/"><strong>P</strong><span class="csplit"> 3</span> - Developer's Best Friend</a></li>
+                            <li><a href="http://p4.dehashed.com/"><strong>P</strong><span class="csplit"> 4</span> - Web App</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--End Mobile Navigation-->               
         </header>    
         <!--end header-->    
         <div class="row">

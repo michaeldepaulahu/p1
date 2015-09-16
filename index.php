@@ -3,9 +3,9 @@
 <head>
 <title>P1 - Home</title>
 <meta charset="utf-8">    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="Depaula's online portfolio for the the P1 project.">
+<meta name="keywords" content="Password Generator, Developer's Best Friend, Web App">
 <meta name="author" content="michaeldepaula">
 <!--CSS-->
 <link rel="stylesheet" href="css/bootstrap.css" >
@@ -14,7 +14,6 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/custom.js"></script>
 </head>
-
 <body>
     <div class="container-fluid">    
         <!--header-->
@@ -43,7 +42,7 @@
                     <!-- Control -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
+                            <span class="sr-only">Navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -63,8 +62,7 @@
             </nav>
             <!--End Mobile Navigation-->  
         </header>    
-        <!--end header-->
-         
+        <!--end header-->  
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 main"></div>
         </div> 
