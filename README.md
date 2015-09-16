@@ -4,7 +4,7 @@
 <http://p1.dehashed.com>
 
 ## Description
-This web app is for Depaula's online portfolio in support of the P1 project. It details a short biography and a Q&A about the CSCI E-15 class. 
+This web app is for Depaula's online portfolio in support of the P1 project. It details a short biography and a Q&A about the CSCI E-15 class. It also contains placeholders for future projects. 
 
 ## Demo
 N/A
