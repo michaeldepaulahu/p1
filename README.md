@@ -27,3 +27,6 @@ N/A
 
 ## Outside code
 * Bootstrap: http://getbootstrap.com/
+
+## Outside stock images
+* Depositphotos: http://depositphotos.com/

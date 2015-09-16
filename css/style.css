@@ -39,12 +39,17 @@ h1{
 	font-size:12px;
 }
 .main{
+	background:url(../img/main.jpg) top no-repeat;
+}
 
+.main_uc{
+	background:url(../img/main_uc.jpg) top no-repeat;
+}
+.main, .main_uc{
 	position:relative;
 	overflow:hidden;
 	margin: 0 0 30px;
-	padding:455px 0 0px;
-	background:url(../img/main.jpg) top no-repeat;
+	padding:455px 0 0px;	
 }
 .csplit{
 	color:	#69d3ed;
