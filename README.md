@@ -16,6 +16,7 @@ N/A
 * index.php
 * style.css
 * custom.js
+* under_constr.php
 
 ### Libraries/plugins:
 
@@ -27,7 +28,7 @@ N/A
 
 ### Redirect:
 
-* index.php - php redirect file created for p2, p3, p4. It redirects user to the under construction page. 
+* index.php (located in P2,P3,P4 servers) - php redirect file created for p2, p3, p4. It redirects user to the under construction page. (i.e. accessing p2.domain.com will send the user to the under_constr.php (currently hosted in p1.domain.com, but the URL references for p2, p3, p4.doman.com are defined.)
 
 ## Outside code
 * Bootstrap: http://getbootstrap.com/
