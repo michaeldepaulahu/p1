@@ -13,15 +13,15 @@ N/A
 
 ### Project file structure:
 
-index.php
-style.css
-custom.js
+* index.php
+* style.css
+* custom.js
 
 ### Libraries/plugins:
 
-jquery-1.11.3.min.js
-bootstrap.css
-bootstrap.min.js
+* jquery-1.11.3.min.js
+* bootstrap.css
+* bootstrap.min.js
 
 **Bootstrap.css has been slightly modified to adapt the navigation design.**
 
