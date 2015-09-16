@@ -24,6 +24,16 @@
                         <p>Dynamic Web Apps Portfolio</p>
                     </div>
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <nav class="hidden-xs">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="http://p1.dehashed.com/">Home - PE</a></li>
+                            <li><a href="http://p2.dehashed.com/"><strong>P</strong><span class="csplit"> 2</span></a></li>
+                            <li><a href="http://p3.dehashed.com/"><strong>P</strong><span class="csplit"> 3</span></a></li>
+                            <li><a href="http://p4.dehashed.com/"><strong>P</strong><span class="csplit"> 4</span></a></li>
+                        </ul>
+                    </nav>                                
+                </div>                
             </div> 
         </header>    
         <!--end header-->    
