@@ -23,6 +23,10 @@ N/A
 * bootstrap.css
 * bootstrap.min.js
 
+### Redirect:
+
+* index.php - php redirect file created for p2, p3, p4. It redirects user to the under construction page. 
+
 **Bootstrap.css has been slightly modified to adapt the navigation design.**
 
 ## Outside code
