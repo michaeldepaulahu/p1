@@ -98,7 +98,7 @@ Michael Depaula was born in Rio de Janeiro, Brazil and moved to the United State
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="thumb-pad1">
                     <div class="thumbnail">
-                        <strong><span class="glyphicon glyphicon-tags" aria-hidden="true"></strong>
+                        <strong><span class="glyphicon glyphicon-tags" aria-hidden="true"></span></strong>
                         <div class="caption1">
                             <p class="description">Developer's Best Friend</p>
                             <p>Project 3 (P3) Developer's Best Friend coming soon.</p>

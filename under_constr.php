@@ -10,7 +10,6 @@
 <!--CSS-->
 <link rel="stylesheet" href="css/bootstrap.css" >
 <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -46,7 +45,8 @@
                 <p>The page you are looking for is currently under construction.</p>
                 <p>Please check back later. Thank you.</p> 
             </div> 
-        </div>   
+        </div>
+    </div>         
     <!--footer-->
     <footer>
         <div class="container">
@@ -75,7 +75,7 @@
             </div>
         </div>   
     </footer>
-   	<!--end footer--> 
+   	<!--end footer-->   
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
